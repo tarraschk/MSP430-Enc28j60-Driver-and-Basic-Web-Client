@@ -4,11 +4,7 @@
 
 #include "msp430.h"
 #include "msp430f5529.h"
-#include "TI/HAL_Board.h"
-#include "TI/HAL_Buttons.h"
-#include "TI/HAL_Dogs102x6.h"
-#include "MayaPocket_SPI.h"
-#include "MayaPocket_GlobalVars.h"
+#include "spi.h"
 #include "enc28j60.h"
 
 /* Modified by Duncan Frost & adapted by Maxime Alay-Eddine
